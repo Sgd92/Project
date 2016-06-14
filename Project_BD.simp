@@ -1,0 +1,277 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<sim-project version="8.2" multi-file="no">
+  <meta>
+    <name>Project_BD</name>
+    <authors> </authors>
+    <description>Bd pour les cartes
+</description>
+  </meta>
+  <counters models="1">
+    <entity-names>
+      <counter>
+        <item-type stereotype="" type="UmlClass" />
+        <value>4</value>
+      </counter>
+    </entity-names>
+    <entity-ids>
+      <counter>
+        <item-type stereotype="" type="AbstractElementGroup" />
+        <value>202</value>
+      </counter>
+      <counter>
+        <item-type stereotype="" type="UmlClass" />
+        <value>5</value>
+      </counter>
+      <counter>
+        <item-type stereotype="" type="UmlRealization" />
+        <value>2</value>
+      </counter>
+    </entity-ids>
+    <diagrams>
+      <counter>
+        <type>SoftwareIdeasModeler.Core.Diagrams.UmlDiagrams.UmlClassDiagram</type>
+        <value>1</value>
+      </counter>
+    </diagrams>
+    <fields>
+      <counter>
+        <type>SoftwareIdeasModeler.Core.DiagramItems.Fields.AttributeField</type>
+        <value>20</value>
+      </counter>
+      <counter>
+        <type>SoftwareIdeasModeler.Core.DiagramItems.Fields.OperationField</type>
+        <value>3</value>
+      </counter>
+    </fields>
+  </counters>
+  <alias-groups />
+  <management>
+    <persons>
+      <person id="P2d31c78f35cb4c54b3e993604c660ea1">
+        <first-name />
+        <last-name />
+        <role />
+        <e-mail />
+        <phone-number />
+        <description />
+        <color>#00000000</color>
+      </person>
+    </persons>
+    <tasks />
+    <requirements />
+    <issues />
+    <to-dos />
+  </management>
+  <glossary />
+  <types>
+    <type-sets>
+      <type-set file="UmlTypes.xml" />
+    </type-sets>
+    <custom-types />
+  </types>
+  <filters />
+  <items />
+  <models>
+    <model id="p141284850329362506" name="Model 1" type="" namespace="" order-index="1">
+      <meta>
+        <authors>
+          <author> </author>
+        </authors>
+        <description />
+        <creation-date>06/13/2016 22:15:54</creation-date>
+        <change-date>01/01/0001 00:00:00</change-date>
+        <revision-count>0</revision-count>
+        <version />
+      </meta>
+      <abstract-items />
+      <sub-models />
+      <diagram type="uml-class" id="p743168628839369261" name="ClassDiagram1" order-index="1" show-id="false" show-name="true" show-parent-name="false" show-stereotypes="true" show-tagged-values="false" show-template-parameters="true" show-fields="true" show-empty-compartments="true" show-attributes="true" show-attribute-visibility="true" show-operations="true" show-operation-parameters="true" show-operation-visibility="true" show-nullability="true" show-sequence-number="false" show-extension-points="false" show-relationship-texts="true" auto-routed-paths="false">
+        <style>
+          <background-color index="1" color="#FFFFFFFF" />
+          <background-color index="2" color="#FFFFFFFF" />
+          <background-type type="solid" />
+        </style>
+        <meta>
+          <authors>
+            <author> </author>
+          </authors>
+          <description />
+          <creation-date>06/13/2016 22:15:54</creation-date>
+          <change-date>06/13/2016 22:25:02</change-date>
+          <revision-count>0</revision-count>
+          <version />
+        </meta>
+        <abstract-items>
+          <item id="di629707441876564576" cid="C001" type="class" name="Jeux" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creator="P2d31c78f35cb4c54b3e993604c660ea1" creation-date="06/13/2016 22:16:01">
+            <stereotypes />
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+            <attributes>
+              <attribute id="a95228da38e48404398f081307f07862e855" cid="AT001" name="Multiplayer" type="" type-id="" visibility="private">
+                <style class="default" />
+              </attribute>
+              <attribute id="ad2ee7c13a20d4a31a2e4c991fc9ff859276" cid="AT003" name="Story" type="" type-id="" visibility="private">
+                <style class="default" />
+              </attribute>
+              <attribute id="a23188d418eb340d68a9ba8c094e6868b526" cid="AT004" name="Shop" type="" type-id="" visibility="private">
+                <style class="default" />
+              </attribute>
+              <attribute id="a00cff64fb8df4b609457bb386183be00541" cid="AT005" name="Classement" type="" type-id="" visibility="private">
+                <style class="default" />
+              </attribute>
+              <attribute id="a09117c41455844e98f53a2a16aff6460907" cid="AT006" name="Options" type="" type-id="" visibility="private">
+                <style class="default" />
+              </attribute>
+              <attribute id="a191d60fbb24d40599ce1403b0261851f907" cid="AT007" name="Trading" type="" type-id="" visibility="private">
+                <style class="default" />
+              </attribute>
+              <attribute id="a165e2f89a7a34d5c860a586a569f24f3198" cid="AT010" name="interface" type="" type-id="" visibility="private">
+                <style class="default" />
+              </attribute>
+              <attribute id="a7b642dc9155443009c08c5e8dee0da5b979" cid="AT018" name="monnaie" type="" type-id="" visibility="private">
+                <style class="default" />
+              </attribute>
+              <attribute id="a31b79d409aab471ab177311427b66a02139" cid="AT019" name="Fusion" type="" type-id="" visibility="private">
+                <style class="default" />
+              </attribute>
+            </attributes>
+            <operations />
+            <template-parameters>
+              <source-codes />
+            </template-parameters>
+          </item>
+          <item id="di251073411600129942" cid="C001" type="class" name="Plateau" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creator="P2d31c78f35cb4c54b3e993604c660ea1" creation-date="06/13/2016 22:16:01">
+            <stereotypes />
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+            <attributes>
+              <attribute id="a9b25e0cf80d94de89b4a7a6f943c6146296" cid="AT008" name="Interface" type="" type-id="" visibility="private">
+                <style class="default" />
+              </attribute>
+              <attribute id="a1d9d88ec195647dd93575501e3091ee6364" cid="AT009" name="animation" type="" type-id="" visibility="private">
+                <style class="default" />
+              </attribute>
+              <attribute id="ae1b73d32bb6c432498e78838ecaf72b8807" cid="AT014" name="Scripts" type="" type-id="" visibility="private">
+                <style class="default" />
+              </attribute>
+            </attributes>
+            <operations />
+            <template-parameters>
+              <source-codes />
+            </template-parameters>
+          </item>
+          <item id="di671842515571174621" cid="C001" type="class" name="Carte" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creator="P2d31c78f35cb4c54b3e993604c660ea1" creation-date="06/13/2016 22:16:01">
+            <stereotypes />
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+            <attributes>
+              <attribute id="af0972ed8722f4d09894851623352e5e0245" cid="AT011" name="Effet-animation" type="" type-id="" visibility="private">
+                <style class="default" />
+              </attribute>
+              <attribute id="a426585fcb9754da88e2781fbf416183c893" cid="AT012" name="Description" type="" type-id="" visibility="private">
+                <style class="default" />
+              </attribute>
+              <attribute id="a5535ce01b9554cc88deaa6338e4b53ff955" cid="AT013" name="Scripts" type="" type-id="" visibility="private">
+                <style class="default" />
+              </attribute>
+              <attribute id="a1574b5dfce48425baec7e136071a1e2c260" cid="AT015" name="Image" type="" type-id="" visibility="private">
+                <style class="default" />
+              </attribute>
+              <attribute id="a056c191a9bd349cf9686611cdcc33723485" cid="AT017" name="Type" type="" type-id="" visibility="private">
+                <style class="default" />
+              </attribute>
+            </attributes>
+            <operations />
+            <template-parameters>
+              <source-codes />
+            </template-parameters>
+          </item>
+          <item id="di334973180773050736" cid="C001" type="class" name="Multiplayer" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creator="P2d31c78f35cb4c54b3e993604c660ea1" creation-date="06/13/2016 22:16:01">
+            <stereotypes />
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+            <attributes>
+              <attribute id="a95228da38e48404398f081307f07862e855" cid="AT001" name="Connection" type="" type-id="" visibility="private">
+                <style class="default" />
+              </attribute>
+              <attribute id="ad2ee7c13a20d4a31a2e4c991fc9ff859276" cid="AT003" name="Hebergement" type="" type-id="" visibility="private">
+                <style class="default" />
+              </attribute>
+              <attribute id="a23188d418eb340d68a9ba8c094e6868b526" cid="AT004" name="Shop" type="" type-id="" visibility="private">
+                <style class="default" />
+              </attribute>
+              <attribute id="a00cff64fb8df4b609457bb386183be00541" cid="AT005" name="Classement" type="" type-id="" visibility="private">
+                <style class="default" />
+              </attribute>
+              <attribute id="a09117c41455844e98f53a2a16aff6460907" cid="AT006" name="Options" type="" type-id="" visibility="private">
+                <style class="default" />
+              </attribute>
+              <attribute id="a191d60fbb24d40599ce1403b0261851f907" cid="AT007" name="Trading" type="" type-id="" visibility="private">
+                <style class="default" />
+              </attribute>
+              <attribute id="a165e2f89a7a34d5c860a586a569f24f3198" cid="AT010" name="interface" type="" type-id="" visibility="private">
+                <style class="default" />
+              </attribute>
+            </attributes>
+            <operations />
+            <template-parameters>
+              <source-codes />
+            </template-parameters>
+          </item>
+          <item id="di684531677260795768" cid="C001" type="class" name="Story" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creator="P2d31c78f35cb4c54b3e993604c660ea1" creation-date="06/13/2016 22:16:01">
+            <stereotypes />
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+            <attributes>
+              <attribute id="a95228da38e48404398f081307f07862e855" cid="AT001" name="Histoire" type="" type-id="" visibility="private">
+                <style class="default" />
+              </attribute>
+              <attribute id="ad2ee7c13a20d4a31a2e4c991fc9ff859276" cid="AT003" name="Tableau" type="" type-id="" visibility="private">
+                <style class="default" />
+              </attribute>
+              <attribute id="a23188d418eb340d68a9ba8c094e6868b526" cid="AT004" name="Personnages" type="" type-id="" visibility="private">
+                <style class="default" />
+              </attribute>
+              <attribute id="a00cff64fb8df4b609457bb386183be00541" cid="AT005" name="Event ??" type="" type-id="" visibility="private">
+                <style class="default" />
+              </attribute>
+            </attributes>
+            <operations />
+            <template-parameters>
+              <source-codes />
+            </template-parameters>
+          </item>
+        </abstract-items>
+        <layer name="Default" visible="true" enabled="true" locked="false">
+          <item id="di629707441876564576" iid="89189559ec4947acbd5ba6281b041aa3" creation-date="06/13/2016 22:16:01" order-index="0" type="entity">
+            <layout ax="727" ay="45" awidth="179" aheight="202" x="727" y="45" width="179" height="202" angle="0" />
+            <class />
+          </item>
+          <item id="di251073411600129942" iid="771a3ba47ab74fdb9c8b47a2fcd91509" creation-date="06/13/2016 22:16:01" order-index="0" type="entity">
+            <layout ax="528" ay="603" awidth="179" aheight="194" x="528" y="603" width="179" height="194" angle="0" />
+            <class />
+          </item>
+          <item id="di671842515571174621" iid="9178998c3bee4803b0df41de0e7f5b6b" creation-date="06/13/2016 22:16:01" order-index="0" type="entity">
+            <layout ax="908" ay="603" awidth="179" aheight="194" x="908" y="603" width="179" height="194" angle="0" />
+            <class />
+          </item>
+          <item id="di334973180773050736" iid="98cdd72751ad4647a09dfcfb6cb5556e" creation-date="06/13/2016 22:16:01" order-index="0" type="entity">
+            <layout ax="410.5" ay="249" awidth="179" aheight="194" x="410.5" y="249" width="179" height="194" angle="0" />
+            <class />
+          </item>
+          <item id="di684531677260795768" iid="338d5dc9ed4046b684f9dc5e58acac33" creation-date="06/13/2016 22:16:01" order-index="0" type="entity">
+            <layout ax="1043" ay="249" awidth="179" aheight="194" x="1043" y="249" width="179" height="194" angle="0" />
+            <class />
+          </item>
+        </layer>
+      </diagram>
+    </model>
+  </models>
+  <documents />
+  <document-templates />
+</sim-project>
